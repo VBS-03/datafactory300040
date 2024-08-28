@@ -3,7 +3,14 @@
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "01-Pipeline-CSV-Pool",
+					"type": "PipelineReference"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
